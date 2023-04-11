@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+  font-family: "Epilogue";
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px;
+}
+
+.request {
+  border: 1px solid #172339;
+  border-radius: 6px;
+  height: 48px;
+  width: 182px;
+  cursor: pointer;
+}
+
+.request:hover {
+  background: #172339;
+  color: #faf8f6;
+}
+
+.link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  letter-spacing: -0.14px;
+  /* Dark Blue */
+  color: #172339;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #faf8f6;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+  margin-top: 56px;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+}
+
+.curvetop {
+  width: 151.47px;
+  height: 19px;
+  position: absolute;
+  left: 170px;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 44px;
+  /* or 116% */
+  letter-spacing: -0.527778px;
+  color: #172339;
+}
+
+.desc {
+  width: 343px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  letter-spacing: 0.0888889px;
+  /* Grey */
+  color: #49566d;
+}
+
+.blackrequest {
+  height: 61px;
+  width: 256px;
+  background: #172339;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.blackrequest:hover {
+  background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+  border: none;
+}
+
+.sclink {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+  letter-spacing: -0.18px;
+  /* Cream White */
+  color: #faf8f6;
+  text-decoration: none;
+}
+
+.tablet {
+  display: none;
+}
+
+.mobile {
+  margin-top: 55px;
+  text-align: center;
+  margin-left: -16px;
+}
+
+.topic {
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 32px;
+  width: 343px;
+  text-align: center;
+}
+
+.topichead {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height, or 117% */
+  text-align: center;
+  /* Dark Blue */
+  color: #172339;
+}
+
+.topicdesc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 2.5px;
+  /* Grey */
+  color: #49566d;
+  margin-top: -20px;
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #172339;
+  border-radius: 15px;
+  margin-top: 237px;
+  position: relative;
+  height: 768px;
+  width: 100%;
+}
+
+.jer {
+  position: absolute;
+  top: -170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.tex {
+  margin-top: 261px;
+}
+.text-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.texhead {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  text-align: center;
+  letter-spacing: -0.416667px;
+  color: #faf8f6;
+}
+
+.texdesc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+  text-align: center;
+  letter-spacing: 0.09px;
+  /* Cream */
+  color: #f3ede7;
+  height: 160px;
+  width: 343px;
+}
+
+.texname {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+  text-align: center;
+  letter-spacing: -0.18px;
+  /* Cream White */
+  color: #faf8f6;
+  margin-top: 40px;
+}
+
+.texcity {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 2.5px;
+  /* Cream */
+  color: #f3ede7;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f3ede7;
+}
+
+.footlogo {
+  color: #ffffff;
+  margin-top: 58px;
+}
+
+.icons {
+  margin-top: 35px;
+  gap: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-self: stretch;
+  padding-bottom: 46px;
+}
+
+.grey:hover {
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.footdesc {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  /* identical to box height, or 213% */
+  text-align: center;
+  letter-spacing: 0.0833333px;
+  /* Grey */
+  color: #49566d;
+  margin-top: 33px;
+}
