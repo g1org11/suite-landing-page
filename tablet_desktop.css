@@ -8,10 +8,17 @@
   }
 
   .curvetop {
-    width: 231.19px;
-    left: 222px;
+    position: relative;
   }
-
+  .workcurve {
+    position: absolute;
+    top: 35%;
+    right: 47%;
+    margin-bottom: 50px;
+  }
+  .text-infos {
+    padding-top: 200px;
+  }
   .top {
     position: absolute;
     z-index: 2;
@@ -81,7 +88,6 @@
   }
 
   .works {
-    width: 100%;
     position: absolute;
     z-index: 2;
     width: 90%;
@@ -104,5 +110,90 @@
 
   .icons {
     align-items: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .heading {
+    font-size: 72px;
+    height: 156px;
+    width: 635px;
+    line-height: 78px;
+    /* or 108% */
+    letter-spacing: -1px;
+  }
+  .works {
+    height: 545px;
+  }
+
+  .text-infos {
+    padding-top: 0;
+    text-align: left;
+    align-items: flex-start;
+    padding-right: 100px;
+  }
+  .texdesc {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .texdesc {
+    width: 350px;
+  }
+  .jer {
+    position: absolute;
+    top: -55px;
+    right: 17%;
+  }
+  .jeremy {
+    height: 600px;
+    width: 375px;
+  }
+  .tex {
+    width: 350px;
+  }
+  .works-content {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .curvetop {
+    position: relative;
+  }
+  .workcurve {
+    position: absolute;
+    top: 30%;
+    right: 43%;
+    height: 52px;
+    width: 64.0488510131836px;
+  }
+  .text {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .top {
+    transform: translateX(-20%);
+  }
+
+  .topic {
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(100%);
+  }
+
+  .block,
+  .topicdesc {
+    text-align: inherit;
+  }
+
+  .top {
+    left: -88px;
+  }
+
+  .tablet {
+    transform: translateX(248px);
+  }
+
+  .works {
+    left: 30px;
   }
 }
